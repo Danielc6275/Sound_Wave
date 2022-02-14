@@ -43,5 +43,20 @@ print(new_list)
 
 gist = [1,2,3,4,5,6,7,8,9]
 
-a = gist[1:5]
+a = gist[::5]
 print(a)
+list_org = ["banana","cherry","apple"]
+list_cpy = list_org
+
+print(list_cpy)
+
+list_cpy.append("lemon")
+
+print(list_cpy)
+print(list_org)
+
+extra_list = [1,2,3,4,5,6]
+b = [x*x for x in extra_list]
+
+print(extra_list)
+print(b)
