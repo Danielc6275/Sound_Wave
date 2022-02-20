@@ -43,7 +43,7 @@ SERVER = 'smtp.gmail.com' #"smtp server"
 PORT = 587 #your port num
 FROM = 'drakejak302@gmail.com' #Your email address
 TO = 'alovegren0727@gmail.com' #Receiver email
-PASS = '**********'
+PASS = 'CwagdIh924'
 
 
 
