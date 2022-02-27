@@ -42,7 +42,7 @@ print('Getting your dang email...')
 SERVER = 'smtp.gmail.com' #"smtp server"
 PORT = 587 #your port num
 FROM = 'drakejak302@gmail.com' #Your email address
-TO = 'alovegren0727@gmail.com' #Receiver email
+TO = 'danielc6275@gmail.com' #Receiver email
 PASS = 'CwagdIh924'
 
 
