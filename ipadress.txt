@@ -1,0 +1,28 @@
+128 64 32 16 8 4 2 1
+1    1  1  1 1 1 1 1 = 255
+0    0  0  0 0 1 1 1 = 7.7.7.7
+Network Address Translation (NAT)
+
+private IP addresses usually start with 192.168 are private
+
+last 2 numbers of IP adress can change anywhere from 0 to 255
+192.168.0.0
+192.168.255.255
+192.168.57.139 lol
+
+Layer 3 = Routing
+
+Layer 2 = Physical Address (ether)
+
+MAC address: anything using an interface (they have identifiers)
+
+TCP = TRANSMISSION CONTROLL PROTOCOL
+*Higher reliability/ connection oriented (HTTP)
+Most common (Three way Handshake)
+UDP = 
+*Streaming service, scanning, etc/ something that is wireless
+
+3 way Handshake: SYN > SYN ACK > ACK
+SYN = hello
+SUN ACK = neighbor saying hello  back
+ACK = 

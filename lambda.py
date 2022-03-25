@@ -1,4 +1,5 @@
 #Lambda function: expression
+from functools import reduce
 add10 = lambda x: x + 10
 print(add10(5)) #Similar to a normal function
 #add10(x)
@@ -18,3 +19,18 @@ print(points2D_sorted)
 a = [1,2,3,4,5]
 b = map(lambda x: x*2,a)
 print(list(b))
+
+c = [x*2 for x in a]
+print(c)
+
+#filter(func,seq)
+
+b = filter(lambda x: x*2,a)
+print(list(b))
+
+c = [x for x in a if x%2==0]
+print(c) #Important
+
+#reduce(func,seq)
+product_a = reduce(lambda x,y: x*y, a)
+print(product_a)
