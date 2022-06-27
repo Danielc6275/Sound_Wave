@@ -1,6 +1,6 @@
 import logging
 logging.basicConfig(level=logging.DEBUG, format='%(asctime)s - %(name)s - %(levelname)s - %(message)s',
-                    datefmt='%m/%d/%Y %H:%M:%S'))
+                    datefmt='%m/%d/%Y %H:%M:%S')# month day year hour minute second 
 logging.debug('Debugging message')
 logging.info('Info message')
 logging.warning('Warning message')
